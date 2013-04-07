@@ -8,7 +8,7 @@ use Carp ();
 use parent 'Plack::Middleware::Throttle::Lite::Backend::Abstract';
 use Cache::Memcached::Fast;
 
-our $VERSION = '0.01'; # VERSION
+our $VERSION = '0.02'; # VERSION
 our $AUTHORITY = 'cpan:CHIM'; # AUTHORITY
 
 __PACKAGE__->mk_attrs(qw(mc));
@@ -46,7 +46,7 @@ Plack::Middleware::Throttle::Lite::Backend::Memcached - Memcache-driven storage 
 
 =head1 VERSION
 
-version 0.01
+version 0.02
 
 =head1 DESCRIPTION
 

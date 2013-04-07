@@ -55,6 +55,9 @@
       },
       "test" : {
          "requires" : {
+            "Cache::Memcached::Fast" : "0",
+            "HTTP::Message" : "6.01",
+            "Plack" : "1.0001",
             "Test::Exception" : "0",
             "Test::More" : "0.98",
             "Test::Pod" : "1.22"
@@ -64,7 +67,7 @@
    "provides" : {
       "Plack::Middleware::Throttle::Lite::Backend::Memcached" : {
          "file" : "lib/Plack/Middleware/Throttle/Lite/Backend/Memcached.pm",
-         "version" : "0.01"
+         "version" : "0.02"
       }
    },
    "release_status" : "stable",
@@ -79,7 +82,7 @@
          "web" : "https://github.com/Wu-Wu/Plack-Middleware-Throttle-Lite-Backend-Memcached"
       }
    },
-   "version" : "0.01",
+   "version" : "0.02",
    "x_authority" : "cpan:CHIM"
 }
 

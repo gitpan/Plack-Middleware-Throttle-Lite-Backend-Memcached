@@ -12,6 +12,9 @@ my %WriteMakefileArgs = (
   "ABSTRACT" => "Memcache-driven storage backend for Throttle-Lite",
   "AUTHOR" => "Anton Gerasimov <chim\@cpan.org>",
   "BUILD_REQUIRES" => {
+    "Cache::Memcached::Fast" => 0,
+    "HTTP::Message" => "6.01",
+    "Plack" => "1.0001",
     "Test::Exception" => 0,
     "Test::More" => "0.98",
     "Test::Pod" => "1.22"
@@ -31,7 +34,7 @@ my %WriteMakefileArgs = (
     "strict" => 0,
     "warnings" => 0
   },
-  "VERSION" => "0.01",
+  "VERSION" => "0.02",
   "test" => {
     "TESTS" => "t/*.t"
   }
