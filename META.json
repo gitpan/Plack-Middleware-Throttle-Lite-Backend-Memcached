@@ -67,7 +67,7 @@
    "provides" : {
       "Plack::Middleware::Throttle::Lite::Backend::Memcached" : {
          "file" : "lib/Plack/Middleware/Throttle/Lite/Backend/Memcached.pm",
-         "version" : "0.02"
+         "version" : "0.03"
       }
    },
    "release_status" : "stable",
@@ -82,7 +82,7 @@
          "web" : "https://github.com/Wu-Wu/Plack-Middleware-Throttle-Lite-Backend-Memcached"
       }
    },
-   "version" : "0.02",
+   "version" : "0.03",
    "x_authority" : "cpan:CHIM"
 }
 

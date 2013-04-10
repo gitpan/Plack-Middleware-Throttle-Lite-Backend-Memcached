@@ -32,7 +32,7 @@ no_index:
 provides:
   Plack::Middleware::Throttle::Lite::Backend::Memcached:
     file: lib/Plack/Middleware/Throttle/Lite/Backend/Memcached.pm
-    version: 0.02
+    version: 0.03
 requires:
   Cache::Memcached::Fast: 0
   Carp: 0
@@ -45,5 +45,5 @@ resources:
   bugtracker: https://github.com/Wu-Wu/Plack-Middleware-Throttle-Lite-Backend-Memcached/issues
   homepage: https://metacpan.org/release/Plack-Middleware-Throttle-Lite-Backend-Memcached
   repository: git://github.com/Wu-Wu/Plack-Middleware-Throttle-Lite-Backend-Memcached.git
-version: 0.02
+version: 0.03
 x_authority: cpan:CHIM
